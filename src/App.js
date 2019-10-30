@@ -37,6 +37,7 @@ class App extends React.Component {
       userText: e.target.value
     })
   }
+    
 
   fetchUser = e => {
     e.preventDefault()
@@ -61,6 +62,7 @@ class App extends React.Component {
     })
   }
 
+    
 
   render() {
     return (
@@ -74,7 +76,7 @@ class App extends React.Component {
           <p>Bio: {this.state.user.bio}</p>
           <p>Following: {this.state.user.following}</p>
           <p>Followers: {this.state.user.followers}</p>
-          <img src="http://ghchart.rshah.org/ChrisRDaniels" alt="ChrisRDaniels's Github chart"/>
+          <img src= {`http://ghchart.rshah.org/${this.state.userText}`} alt=" Github chart"/>
         </div>
         <h2>{this.state.user.name}'s Followers</h2>
         <div className="follower-list">
