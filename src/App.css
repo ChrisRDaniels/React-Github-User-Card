@@ -45,6 +45,7 @@ h2 {
 img {
   max-width: 350px;
   max-height: 350px;
+  margin-bottom: 10px;
 }
 .user-card h2 {
   color: #030303;

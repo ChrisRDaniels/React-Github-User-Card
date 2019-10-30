@@ -61,6 +61,7 @@ class App extends React.Component {
     })
   }
 
+
   render() {
     return (
       <div className="App">
@@ -73,6 +74,7 @@ class App extends React.Component {
           <p>Bio: {this.state.user.bio}</p>
           <p>Following: {this.state.user.following}</p>
           <p>Followers: {this.state.user.followers}</p>
+          <img src="http://ghchart.rshah.org/ChrisRDaniels" alt="ChrisRDaniels's Github chart" width ="700px" height="250px" />
         </div>
         <h2>{this.state.user.name}'s Followers</h2>
         <div className="follower-list">
