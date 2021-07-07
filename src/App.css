@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  background-image: url('https://free4kwallpapers.com/uploads/originals/2015/07/14/matrix-code.jpg')
+  
+}
+
+h2 {
+  color: #f3f3f3;
+  font-size: 2rem;
+}
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.user-card{
+  background-color: #f3f3f3;
+  font-family: 'Acme', sans-serif;
+  color: #030303;
+  width: 48%;
+  margin: 1vh auto;
+  height: 33vh;
+  display:flex; 
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  border: 2px solid #f5f5f5;
+  border-radius: 25px;
+}
+
+img {
+  max-width: 80%;
+  max-height: 15%px;
+  margin-bottom: 10px;
+}
+
+
+.user-card h2 {
+  color: #030303;
+  margin: .8rem;
+}
+
+.follower-list{
+  display:flex;
+  flex-wrap:wrap;
+  margin: 0 auto;
+  justify-content:center;
+}
+
+.follower-card{
+  width: 25%;
+  min-width: 500px;
+  min-height: 500px;
+  color: #f3f3f3;
+  font-family: 'Bree Serif', serif;
+  font-size: 1.5rem;
+  border: 2px solid #f3f3f3;
+  border-radius: 25px;
+  margin: 1%;
+  padding: 0.5%;
+}
